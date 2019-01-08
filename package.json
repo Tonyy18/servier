@@ -1,0 +1,24 @@
+{
+  "name": "servier",
+  "version": "1.1.0",
+  "description": "Fast and easy way to build dynamic websites",
+  "main": "index.js",
+  "author": {
+    "name": "Toni Isotalo",
+    "email": "toni.isotalo@hotmail.com",
+    "url": "https://twitter.com/toni_isotalo"
+  },
+  "bugs": "https://github.com/Tonyy18/servier/issues",
+  "homepage": "https://github.com/Tonyy18/servier",
+  "keywords": [
+    "website",
+    "web",
+    "server",
+    "dynamic",
+    "http"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.12"
+  }
+}
