@@ -1,14 +1,42 @@
 {
-  "name": "servier",
-  "version": "1.0.0",
-  "description": "Fast and easy way to build dynamic websites",
-  "main": "index.js",
+  "_from": "servier",
+  "_id": "servier@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-O8FjWB496+HdS4FOQz0JtckBOM7rhcbmn+Ux+0xyzbihv0T1H8XUKQlbZBP8p8GtBdR5L8rcBda+18S5Wj4Kiw==",
+  "_location": "/servier",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "servier",
+    "name": "servier",
+    "escapedName": "servier",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/servier/-/servier-1.2.0.tgz",
+  "_shasum": "aa07f64f7fcb8903cc4e4f13563681bc95cd8376",
+  "_spec": "servier",
+  "_where": "C:\\Users\\tonii\\Desktop\\app",
   "author": {
     "name": "Toni Isotalo",
     "email": "toni.isotalo@hotmail.com",
     "url": "https://twitter.com/toni_isotalo"
   },
-  "bugs": "https://github.com/Tonyy18/servier/issues",
+  "bugs": {
+    "url": "https://github.com/Tonyy18/servier/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "handlebars": "^4.0.12"
+  },
+  "deprecated": false,
+  "description": "Fast and easy way to build dynamic websites",
   "homepage": "https://github.com/Tonyy18/servier",
   "keywords": [
     "website",
@@ -18,7 +46,7 @@
     "http"
   ],
   "license": "MIT",
-  "dependencies": {
-    "handlebars": "^4.0.12"
-  }
+  "main": "index.js",
+  "name": "servier",
+  "version": "1.2.0"
 }
