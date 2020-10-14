@@ -106,13 +106,3 @@ server.get("/index", (req, res) => {
     });
 });
 ```
-
-<b>Servier</b> module uses <a href="https://handlebarsjs.com/">Handlebars</a> template module
-
-The <b>Handlebars</b> module is fully customizable using its <a href="https://handlebarsjs.com/">documentation</a>.
-
-<b>Handlebars</b> module is stored in `handlebars` property
-
-```javascript
-Server.prototype.handlebars = require("handlebars");
-```
