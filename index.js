@@ -18,7 +18,7 @@ function Server(options = {}) {
     //Public
     this.running = false;
     this.root = null;
-    this.http = http.createServer(options, (req, res) => {
+    this.http = http.createServer((req, res) => {
         //Receives all http requests
         request(req, res);
     });
