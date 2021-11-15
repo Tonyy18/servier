@@ -20,18 +20,6 @@ const servier = require("servier");
 const server = servier();
 ```
 
-If you want to use SSL/TLS connection, you can enter your keys in the constructor
-
-```javascript
-const servier = require("servier");
-const fs = require("fs");
-const options = {
-  key: fs.readFileSync("my-site-key.pem"),
-  cert: fs.readFileSync("chain.pem")
-};
-const server = servier(options);
-```
-
 <h2>start</h2>
 Starts the web server on specified port
 
